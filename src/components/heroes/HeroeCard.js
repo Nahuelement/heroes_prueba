@@ -24,7 +24,7 @@ export const HeroeCard = ({
                     
                     <p className="card-text">{alter_ego}</p>
                     <br/>
-                    <br/>
+                    
 
                     {alter_ego!==characters && 
 
