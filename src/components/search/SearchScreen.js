@@ -76,7 +76,7 @@ export const SearchScreen = ({history}) => {
                                         {
                         (q!=='' && heroesFilter.length ===0)  
                         &&
-                         <div className = 'alert alert'>
+                         <div className = 'alert alert-info'>
                              Dont exist to heroes
                         </div>
                     }
