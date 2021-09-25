@@ -6,7 +6,7 @@ import { types } from '../../types/type'
 
 export const LoginScreen = ({history}) => {
 
-    const {user,dispatch} = useContext(AuthContext)
+    const {dispatch} = useContext(AuthContext)
     const handleLogin = () => {
         dispatch({
             type:types.login,
