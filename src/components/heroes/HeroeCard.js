@@ -23,6 +23,8 @@ export const HeroeCard = ({
                     <h5 className="card-title" >{superhero}</h5>
                     
                     <p className="card-text">{alter_ego}</p>
+                    <br/>
+                    <br/>
 
                     {alter_ego!==characters && 
 
