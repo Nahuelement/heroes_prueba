@@ -73,7 +73,8 @@ export const SearchScreen = ({history}) => {
                              Search HeroeCard
                         </div>
                     }
-                                        {
+                                        
+                    {
                         (q!=='' && heroesFilter.length ===0)  
                         &&
                          <div className = 'alert alert-info'>

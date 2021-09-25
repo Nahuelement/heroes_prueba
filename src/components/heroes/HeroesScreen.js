@@ -31,7 +31,18 @@ export const HeroesScreen = ({history}) => {
         characters
     } = heroe;
 
-    
+    let charactersUnique;
+    if (Array(characters.split(','))[0].length > 1) {
+        charactersUnique =  Array(characters.split(','))[0].filter(caract => caract !==alter_ego)
+
+    }else{
+        charactersUnique =  characters
+    }
+   
+                
+                     
+                    
+  
 
     return (
         
@@ -55,7 +66,7 @@ export const HeroesScreen = ({history}) => {
 
                     </ul>
                 <h4 style = {{ padding:'10px', margin:'10px',textAlign:'center'}}>Characters</h4>
-                <h6 style = {{padding:'10px', margin:'10px', textAlign:'center'}} >{characters}</h6>
+                <h6 style = {{padding:'10px', margin:'10px', textAlign:'center'}} >{charactersUnique}</h6>
                 <br/>
                 <br/>
                 <button 
