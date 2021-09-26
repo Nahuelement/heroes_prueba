@@ -31,11 +31,13 @@ export const SearchScreen = ({history}) => {
     }
 
     return (
-        <div>
+        <div >
             <h1>Search</h1> 
             <hr/>
-            <div className="row">
-                <div className="col-5">
+            <div className= 'row'>
+                <div className='col-5'>
+                <h3>Search Form</h3> 
+                <hr/>
             <form
             onSubmit = {handleSearch}
             >
@@ -62,7 +64,8 @@ export const SearchScreen = ({history}) => {
 
 
                 </div>
-                <div className="col-7">
+                <div className='col-7'>
+
                     <h3>Result</h3>
                     <hr/>
 
